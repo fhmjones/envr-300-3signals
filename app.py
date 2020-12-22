@@ -25,7 +25,8 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 server = Flask(__name__)
 app = dash.Dash(
     server=server,
-    url_base_pathname=environ.get('JUPYTERHUB_SERVICE_PREFIX', '/')
+    url_base_pathname=environ.get('JUPYTERHUB_SERVICE_PREFIX', '/'),
+    external_stylesheets=external_stylesheets
 )
 
 app.layout = html.Div([
