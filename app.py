@@ -117,14 +117,12 @@ app.layout = html.Div([
         ### Questions students could consider
 
         These are examples of questions to drive teaching discussions or learning assignments. Questions are not necessarily well-posed. Also, most are judgement calls - which is part of the point!
-        
-        1. How much noise does it take to obscure the fact that the signal is a nice sinewave?
-        2. "Smoothing" is a simple "boxcar", or 5-point moving average. How much MORE noise can be managed before the smoothed signal begins to loose its useful character?
-        3. If there are only 2 or 3 cycles of signal, can you tell there is a trend? What are the implications for the "length" of your data set or series of measurements? 
-        4. Does noise obscure the fact that there is a superimposed linear trend? 
-        5. How much data (i.e. how long do you have to take measurments) before the trend is observed? 
-        6. Does this necessary length for measuring the phenomenon vary if there is more noise? 
-        7. Pose your own question AND answer it.  
+
+          1. How much noise does it take to obscure the fact there is a nice sine-wave signal?
+          2. If there are only 2 or 3 cycles of signal, can you tell there is a trend? What are the implications for the "length" of your data set or series of measurements?
+          3. Does noise obscure the fact that there is a superimposed linear trend?
+          4. How much data (i.e. how long do you have to take measurements) before the trend is observed?
+  
         ''')
 ], style={'width': '900px'}
 )
